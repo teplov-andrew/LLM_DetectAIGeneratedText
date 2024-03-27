@@ -12,4 +12,4 @@ For data, I used an open [dataset](https://www.kaggle.com/datasets/thedrcat/daig
 After that, I build and train a BPE tokenizer on a test dataset to convert texts into token sequences. 
 Then I apply TfidfVectorizer to the tokenized texts to convert them into TF-IDF features.
 As a model, I used VotingClassifier consisting of Multinomial Naive Bayes, SGDClassifier, LightGBM, CatBoost. 
-I selected the parameters for these models myself, but also took something from open notebooks and discussions.
+I selected the hyperparameters for these models myself, but also took something from open notebooks and discussions.
