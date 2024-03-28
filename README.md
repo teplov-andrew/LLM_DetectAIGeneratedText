@@ -13,3 +13,5 @@ After that, I build and train a BPE tokenizer on a test dataset to convert texts
 Then I apply TfidfVectorizer to the tokenized texts to convert them into TF-IDF features.
 As a model, I used VotingClassifier consisting of Multinomial Naive Bayes, SGDClassifier, LightGBM, CatBoost. 
 I selected the hyperparameters for these models myself, but also took something from open notebooks and discussions.
+## Resualt
+As a result, I gained a lot of new knowledge and took 320th place out of 4358, which gave me a bronze medal
